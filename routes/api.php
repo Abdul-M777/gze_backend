@@ -10,4 +10,4 @@ Route::get('/user', function (Request $request) {
 
 
 Route::get('/games', [GameController::class, 'index']);
-Route::get('/games/{id}', [GameController::class, 'show']);
+Route::get('/games/{id}', [GameController::class, 'show'])->where('id', '[0-9]+');
