@@ -7,5 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/games', [GameController::class, 'index'])->name('games.index');
-Route::get('/games/{id}', [GameController::class, 'show'])->name('games.show');
+// Route::get('/games', [GameController::class, 'index'])->name('games.index');
+// Route::get('/games/{id}', [GameController::class, 'show'])->name('games.show');

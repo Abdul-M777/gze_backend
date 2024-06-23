@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Laravel App</title>
+    <title>Game Zone Empire</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
